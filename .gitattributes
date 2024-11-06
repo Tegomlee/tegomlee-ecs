@@ -1,0 +1,24 @@
+# Set default text file handling
+* text=auto
+
+# Define line endings for source code files
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.h text eol=lf
+*.c text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Define binary files to prevent Git from attempting to diff or merge them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
+
+# CMake specific files, treat as text
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
